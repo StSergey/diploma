@@ -1,0 +1,133 @@
+footer {    
+
+        .footer_start {
+
+    	display:flex;
+    	width: 100%;
+    	margin-top: 55px;
+    	padding: 0 30px;
+
+	    .box_topic {
+	    		text-transform: uppercase;
+	            font-weight: bold;
+	            font-size: 15px;
+	            margin-top: 19px;
+	            margin-left: -3px;
+	    }
+	    .footer_box1 {
+	    	width: 66%;
+	    	
+	    	.footer_h2 {
+	    		font-size: 45px;
+	            margin-top: 8px;
+	            margin-bottom: 0px;
+	            color: $light-text;
+	    	}
+	    	.footer_text {
+	    		color: $light-text;  
+	            font-size: 14px;
+	            margin-top: 26px;
+	            line-height: 24px;
+	            padding-right: 11px;
+	    	}
+
+	    	.folowers {
+	    		margin-top: 44px;
+	            font-weight: bold;
+	    	}
+
+	    	.footer_follow {
+	    		display:flex;
+	    		flex-direction:row;
+	    		.footer_text {
+	    			font-size: 14px;
+	                font-style: italic;
+	                margin-top: 16px;
+	                color: $light-text;
+	                margin-right: 14px;	
+	    		}
+
+	    		.follow_icon {
+	    			padding: 16px 4px;
+	                margin: 0 4px;
+	    		}
+	    	}
+	    	.newsletter {
+	    		.mail {
+	    			width: 230px;
+					height: 40px;
+					border: 1px solid #e7e7e7;
+					background-color: #ffffff;
+	       		}
+	    		.submit {
+	    			width: 150px;
+					height: 40px;
+					background-color: #95e1d3;
+	    		}
+	    	}
+	    }	
+
+	    .footer_box2 {
+	    	width: 54%;
+
+	    	.footer_gallery {
+	    		display: flex;
+	    		flex-direction: row;
+	    		margin-top: 36px;
+	            margin-bottom: -10px;
+	    	}
+
+	    	.box_image {
+	    		height: 80px;
+	    	}
+
+	    	.box_text {
+	    		margin-left: 18px;
+
+	    		.box_text-title {
+	    			text-transform: uppercase;
+	                font-size: 12px;
+	                font-weight: bold;
+	                margin-top: 18px;
+	                line-height: 17px;
+	                color: $dark-text;
+	                margin-bottom: -4px; 
+	    		}
+	    		.box_text-date {
+	    		    color: $light-text;
+	                font-size: 11px;
+	                font-style: italic;	
+	    		}
+	    	}
+	    }
+
+	    .footer_box3 {
+	    	width: 35%;
+
+	    	.insta_gallery	{
+	    		 margin-bottom: 12px;
+	    		 
+	    		 .gallery_img {
+	    		 	margin: -1px;
+	    		 }
+	    	}
+	    
+	    }
+	}
+
+    .ligne_end {
+		margin-top: 40px;
+		width: 100%;
+		
+    }
+    
+	.footer_end {
+		display: block;
+	    text-align: center;
+	    margin-top: 50px;
+	    font-size: 14px;
+	    color: $dark-text;
+	    font-weight: bold;
+		}
+	
+}

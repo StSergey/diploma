@@ -1,0 +1,122 @@
+.blog {
+
+    h4 {
+        margin-top: 104px;
+    }
+
+    .blog_container {
+        display: flex;
+        width: 100%;
+        padding-left:  30px;
+        flex: 1;
+        margin-top: 37px;
+        flex-direction: row;
+
+        @media screen and (max-width: 767px) {
+            flex-direction: column;
+        }
+
+        .blog_item {
+
+            width: 33.3%;
+
+            @media screen and (max-width: 767px) {
+                width: 100%;
+            }
+
+            .blog_photo {
+                height: 240px;
+                background-repeat: no-repeat;
+                display: flex;
+                align-items: flex-end;
+                margin: 10px 1px;
+                padding-bottom: 10px;
+                background-position-x: center;
+                background-position-x: left;
+
+                @media screen and (max-width: 767px) {
+                    background-position-x: left;
+                }
+
+                .blog_calend {
+                    background-color: $filler;
+                    width: 60px;
+                    height: 70px;
+                    position: relative;
+                    left: -10px;
+                    
+                    text-align: center;
+                    color: $home-letters;
+
+                    @media screen and (max-width: 767px) {
+                        left: 60px;
+                    }
+               }
+            }
+
+            .blog_photo_1 {
+                background-image: url('../img/pic15.jpg');
+            }
+
+            .blog_photo_2 {
+                background-image: url('../img/pic16.jpg');
+            }
+
+            .blog_photo_3 {
+                background-image: url('../img/pic17.jpg');
+            }
+          
+            .calend_day {
+                font-size: 30px;
+                font-weight: bold;
+                margin: 0;
+                margin-top: 8px;        
+            }
+
+            .calend_month {
+                margin: -5px;
+                font-style: italic;
+                font-size: 14px;
+            }        
+
+            .person_name {
+                text-transform: uppercase;
+                font-size: 14px;
+                margin-top: 17px;
+                font-weight: bold;
+                margin-bottom: 0;
+            }
+
+            .person_comment {
+                font-size: 14px;
+                line-height: 24px;
+                margin-top: 9px;
+            }
+        }
+    }
+
+    .map {
+        text-align: center;
+        margin-top: 154px;
+        background-image: url('../img/layer-59.png');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        padding-top: 57px;
+        cursor: pointer;
+
+        @media screen and (max-width: 767px){
+            display: none;
+        }
+
+        .map_text {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 24px;
+            margin-top: 8px;
+            margin-bottom: -18px;
+            color: $line;
+        }
+    }
+}

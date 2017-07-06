@@ -1,0 +1,28 @@
+.work {
+
+    h4 {
+        padding-top:10%;
+    }
+
+    .under_header {
+        padding-top: 20px;
+        margin:0.7% 0 6.6% 0;
+        text-align:center;
+    }
+
+    .work_gallery {
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+        margin-top: 99px;
+
+        .gallery_box {
+            display: block;
+
+            img {
+                margin-bottom: -4px;
+            }
+        }
+                   
+    }
+ }   

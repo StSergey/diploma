@@ -1,0 +1,79 @@
+.clients {
+    background-image: url('../img/layer-53.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 727px;
+
+     h4 {
+        padding-top: 10%;
+    }
+
+    // @media screen and (min-width: 767px) {
+    //     height: 727px;
+    // }
+
+   
+    .clients_container {
+        display: flex;
+        width: 100%;
+        
+        margin-top: 18px;
+        padding: 0 71px;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        @media screen and (max-width: 767px) {
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
+
+        .clients_box {
+            width: 50%;
+            display: flex;
+            margin-bottom: -19px;
+
+           @media screen and (max-width: 767px) {
+                width: 100%;
+            }
+
+            img {
+                margin: auto;
+            }
+
+            .box_text {
+                padding: 30px 30px 30px; 
+                
+                .person_name {
+                    text-transform: uppercase;
+                    padding-top: 3px;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+
+                .person_role {
+                    margin-top: -4px;
+                    font-style: italic;
+                    font-size: 12px;
+                }
+
+                .line {
+                    margin-left: 0;
+                    transform: none;
+                    width: 62px;
+                    margin-top: 19px;
+                }
+
+                .person_comment {
+                    font-size: 15px;
+                    padding-top: 5px;
+                    padding-right: 20px;
+                    line-height: 24px;
+                    color: $light-text;
+                }
+            }
+        }
+    }
+}
